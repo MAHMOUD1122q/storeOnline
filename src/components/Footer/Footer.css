@@ -1,0 +1,35 @@
+footer {
+  background-color: #082f49;
+  padding-top: 20px;
+  padding-bottom: 5px;
+}
+footer .container {
+  direction: rtl;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+footer .container .image img {
+  width: 200px;
+}
+footer .container .image p {
+  width: 500px;
+  margin: 10px 0;
+}
+footer .container ul h3 {
+  color: white;
+}
+footer .container ul li {
+    margin: 10px 0;
+    color: white;
+    font-size: 18px;
+    transition: 0.3s;
+}
+footer .container ul li:hover {
+  color: #80CBC4;
+}
+footer .copyright {
+  text-align: center;
+  font-weight: bold;
+  color: white;
+}

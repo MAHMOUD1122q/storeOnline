@@ -1,0 +1,31 @@
+.cart {
+  padding-top: 50px;
+  padding-bottom: 50px;
+}
+.cart  .container {
+  display: flex;
+}
+.container table {
+  width: 700px;
+  text-align: center;
+  margin-left: 100px;
+}
+th {
+  border-bottom: 2px solid #ddd;
+}
+th,td {
+  color: #082f49;
+}
+.container table tbody {
+  margin-left: 10px;
+}
+table td i {
+  cursor: pointer;
+}
+
+.container table tr td img {
+  width: 70px;
+}
+.container .total {
+  margin-left: 50px;
+}

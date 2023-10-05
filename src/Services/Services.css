@@ -1,0 +1,39 @@
+
+
+
+
+
+
+
+
+
+
+.services {
+  padding-top: 50px;
+  padding-bottom: 50px;
+}
+.services .container {
+  display: flex;
+  justify-content: space-between;
+  margin: 0 50px;
+}
+.services .container .box {
+  display: flex;
+  align-items: center;
+  padding: 35px 20px;
+  transition: 0.3s;
+}
+.services .container .box:hover {
+  transform: scale(1.1);
+}
+.services .container .box span i {
+  margin-right: 10px;
+  text-align: center;
+  width: 45px;
+  height: 45px;
+  border-radius: 50%;
+  font-size: 22px;
+  line-height: 46px;
+  color: white;
+  background-color: #ee2761;
+}

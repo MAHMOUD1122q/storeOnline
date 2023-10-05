@@ -1,0 +1,120 @@
+.product-page {
+  padding-top: 50px;
+  padding-bottom: 50px;
+}
+.product-page .container {
+  display: flex;
+  justify-content: space-between;
+}
+.product-page .container img {
+  width: 500px;
+}
+.product-page .container .product-details {
+  flex: 1;
+  margin-left: 30px;
+}
+.product-page .container .product-details h2 {
+  margin-bottom: 10px;
+}
+.product-page .container .product-details .product-rating {
+  display: flex;
+  margin: 10px 0;
+}
+.product-page .container .product-details .product-rating span i {
+  color: coral;
+}
+.product-page .container .product-details .product-rating p {
+  margin-left: 5px;
+}
+.product-page .container .product-details .product-rating p span {
+  color: coral;
+}
+.product-page .container .product-details .price {
+  font-size: 20px;
+  display: block;
+}
+.product-page .container .product-details .short-desc {
+  width: 600px;
+}
+.buy-btn {
+  border: 0;
+  margin-top: 10px;
+  padding: 10px 20px;
+  color: white;
+  background-color: #082f49;
+  border-radius: 6px;
+  cursor: pointer;
+}
+.buy-btn:hover {
+  animation: pop 0.7s infinite;
+}
+.product-wrapper {
+  padding-bottom: 50px;
+}
+.product-wrapper .container {
+  margin-left: 30px;
+}
+.product-wrapper .container .tab-wrapper {
+  display: flex;
+  align-items: center;
+  gap: 5px;
+  color: #082f49;
+  font-weight: 500;
+  font-size: 20px;
+  cursor: pointer;
+}
+.active-tab {
+  background-color: aqua;
+}
+.product-wrapper .container .tab-wrapper h6 {
+  /* margin-right: 20px; */
+  padding: 10px 20px;
+}
+.tab-content {
+  margin-top: 15px;
+}
+.product-review .review-wrapper ul li span {
+  color: coral;
+  font-weight: 600;
+  display: block;
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+.review-form {
+  width: 70%;
+  margin: auto;
+  margin-top: 50px;
+}
+.review-form h4 {
+  margin-bottom: 30px;
+  font-weight: 600;
+  font-size: 20px;
+}
+.review-form form .form-contant {
+  margin: 20px 0;
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+.review-form form .form-contant input ,textarea{
+  width: 100%;
+  border: 1px solid #082f49;
+  border-radius: 5px;
+  padding: 8px 20px;
+  resize: none;
+}
+.review-form form .form-contant span {
+  display: flex;
+  align-items: center;
+  column-gap: 5px;
+  color: coral;
+  font-weight: 600;
+  cursor: pointer;
+}
+.container-conatent {
+  margin: 20px 0 ;
+}
+.container-conatent h2 {
+  text-align: center;
+  font-weight: 600;
+}

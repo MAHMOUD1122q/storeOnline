@@ -1,0 +1,58 @@
+.Check {
+  padding-top: 50px;
+  padding-bottom: 80px;
+}
+.Check .conatiner {
+  display: flex;
+  margin-right: 60px;
+}
+.Check .conatiner h6 {
+  font-size: 20px;
+  color: #082f49;
+}
+.Check .conatiner label {
+  display: block;
+  padding-top: 20px;
+  font-weight: 600;
+  color: #082f49;
+}
+.Check .conatiner input {
+  display: block;
+  width: 600px;
+  padding: 8px 20px;
+  margin-top: 10px;
+  border: 1px solid #ddd;
+  outline: none;
+}
+.checkout-content {
+  position: relative;
+  direction: ltr;
+  padding: 15px 30px;
+  width: 380px;
+  height: 300px;
+  margin-top: 40px;
+  margin-right: 80px;
+  background-color: #082f49;
+  color: white;
+}
+.checkout-content .buy-btn {
+  margin-top: 20px;
+  color: #082f49;
+  width: 100%;
+  background-color: white;
+}
+.checkout-content .total {
+  padding: 5px 0;
+  font-size: 18px;
+}
+.checkout-content .total span,
+.checkout-content h4 span{
+  float: right;
+}
+.checkout-content h4 {
+  font-size: 25px;
+}
+.total-cost {
+  margin-top: 10px;
+  border-top: 1px solid #eee;
+}
